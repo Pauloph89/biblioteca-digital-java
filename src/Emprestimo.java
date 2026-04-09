@@ -45,7 +45,7 @@ public class Emprestimo implements Exibivel, CalculavelMulta {
     }
 
     @Override
-    public double calculavelMulta() {
+    public double calcularMulta() {
         return calcularDiasAtraso() * usuario.getMultaDiaria();
     }
 

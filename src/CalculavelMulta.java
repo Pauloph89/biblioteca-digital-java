@@ -1,3 +1,3 @@
 public interface CalculavelMulta {
-    double calculavelMulta();
+    double calcularMulta();
 }
